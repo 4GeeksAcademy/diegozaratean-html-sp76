@@ -3,6 +3,19 @@ body{
 }
 
 div {
-    background-color: rgb(201, 255, 243);
-    border: 1px solid #f0f;
+    /* background-color: rgb(201, 255, 243); */
+    /* border: 1px solid #f0f; */
+}
+
+
+.btn-success{
+    background-color: #2fe712;
+}
+
+.btn-blue:hover {
+    background-color: #f0f;
+}
+
+.btn-blue {
+    background-color: #3f52c8;
 }
