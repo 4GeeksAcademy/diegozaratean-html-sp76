@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fromularios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
 </head>
 <body>
     
     <h1>Bienvenidos a los Formularios ;)</h1>
+
+
+    <form class="w-50 bg-secondary mx-auto p-5 text-light rounded-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <div class="mb-3">
+            <label for="discount">
+                Discount
+            </label>
+            <select id="discount" class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    <form  >
+        <fieldset>
+            <legend>Datos de usuario:</legend>
+
+            <div>
+                <label for="name2">Nombre</label>
+                <input type="text" name="name1" id="name2" placeholder="ingresa tu nombre">
+            </div>
+            <div>
+                <label for="correo">correo</label>
+                <input type="email" name="correo" id="correo" placeholder="ingresa tu correo">
+            </div>
+        </fieldset>
+        <div>
+            <label for="clave">clave</label>
+            <input type="password" name="clave" id="clave" placeholder="ingresa tu clave">
+        </div>
+
+        <div>
+            <label for="express">express</label>
+            <input type="radio" name="envio" id="express">
+            <br>
+            <label for="nomal">nomal</label>
+            <input type="radio" name="envio" id="nomal">
+            <br>
+            <label for="demorado">demorado</label>
+            <input type="radio" name="envio" id="demorado">
+            <br>
+            
+        </div>
+
+        <div>
+            <select name="envio" id="envio">
+                <option value="express">express</option>
+                <option value="nomal">nomal</option>
+                <option value="demorado">demorado</option>
+            </select>
+        </div>
+
+
+        <div>
+            <button type="submit">enviar</button>
+        </div>
+    </form>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
